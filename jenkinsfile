@@ -4,7 +4,7 @@ pipeline {
         stage("build") {
             steps {
                 echo 'running build'
-                sh 'java exam.java'
+                sh 'exam.java'
             }
         }
     }
